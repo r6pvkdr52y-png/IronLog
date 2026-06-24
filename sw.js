@@ -1,5 +1,11 @@
-const CACHE_NAME = "ironlog-cache-v1";
-const PRECACHE_URLS = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
+const CACHE_NAME = "ironlog-cache-v2";
+const PRECACHE_URLS = [
+  "./",
+  "./index.html",
+  "./manifest.json",
+  "./icon-ember-192.png",
+  "./icon-ember-512.png",
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
