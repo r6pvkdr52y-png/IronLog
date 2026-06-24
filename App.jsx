@@ -188,6 +188,8 @@ export default function App() {
     const savedTheme = data.settings.theme || "ember";
     const link = document.querySelector("link[rel='manifest']");
     if (link) link.href = `./manifest-${savedTheme}.json`;
+    const appleIcon = document.querySelector("link[rel='apple-touch-icon']");
+    if (appleIcon) appleIcon.href = `./icon-${savedTheme}-192.png`;
   }, []);
 
   useEffect(() => {
@@ -972,6 +974,8 @@ function SettingsScreen({ unit, setUnit, currentTheme, setTheme, onExport, onImp
     // Swap the manifest so reinstalling picks up the right icon
     const link = document.querySelector("link[rel='manifest']");
     if (link) link.href = `./manifest-${pendingTheme}.json`;
+    const appleIcon = document.querySelector("link[rel='apple-touch-icon']");
+    if (appleIcon) appleIcon.href = `./icon-${pendingTheme}-192.png`;
     setShowThemePicker(false);
     setShowReinstallModal(true);
   };
