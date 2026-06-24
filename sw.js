@@ -1,4 +1,4 @@
-const CACHE_NAME = "ironlog-cache-v2";
+const CACHE_NAME = "ironlog-cache-v1";
 const PRECACHE_URLS = [
   "./",
   "./index.html",
