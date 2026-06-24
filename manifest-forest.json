@@ -2,25 +2,25 @@
   "name": "IronLog",
   "short_name": "IronLog",
   "description": "A local-first workout tracker \u2014 log sets, track progress, rest on time.",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/IronLog/",
+  "scope": "/IronLog/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#121212",
   "theme_color": "#121212",
   "icons": [
     {
-      "src": "icon-forest-192.png",
+      "src": "/IronLog/icon-forest-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-forest-512.png",
+      "src": "/IronLog/icon-forest-512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "icon-forest-512.png",
+      "src": "/IronLog/icon-forest-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
