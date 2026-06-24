@@ -1087,7 +1087,7 @@ function ReinstallModal({ onClose }) {
   return (
     <Modal onClose={onClose} title="Theme applied!">
       <div className="reinstall-body">
-        Your new accent colour is active across the app. To update the <strong>Home Screen icon</strong> to match, remove IronLog from your Home Screen and reinstall it:
+        Your new accent colour is active across the app. To update the <strong>Home Screen icon</strong> to match, first <strong>export a backup</strong> in Settings → Your Data, then remove IronLog from your Home Screen and reinstall it:
       </div>
       <a
         className="reinstall-link"
